@@ -16,6 +16,7 @@ const Header = () => {
                 sx={{ 
                     backgroundColor: 'primary',
                     padding: '3em', 
+                    margin: '3em',
                 }}
             >
                 <Grid container spacing={2}>

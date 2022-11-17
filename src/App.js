@@ -1,6 +1,7 @@
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
 import './App.css';
 import Header from './components/header/Header';
+import Body from './components/projects/Projects';
 
 const theme = createTheme({
   palette: {
@@ -17,6 +18,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header />
+        <Body />
       </ThemeProvider>
     </div>
   );
