@@ -1,0 +1,27 @@
+{
+    "industry": [
+        {
+            "name": "United States Space Force",
+            "title": "Full Stack Developer",
+            "description": "desc",
+            "skills": [
+                "UI/UX Developer",
+                "Backend Developer"
+            ]
+        },
+        {
+            "name": "United States Air Force",
+            "title": "Systems Engineer",
+            "description": "desc",
+            "skills": [
+                "Scrum Master",
+                "Systems Engineering"
+            ]
+        }
+    ],
+    "technologies": [
+        "JavaScript",
+        "React",
+        "PostgreSQL"
+    ]
+}

@@ -20,7 +20,7 @@ const Header = () => {
                 }}
             >
                 <Grid container spacing={2}>
-                    <Grid item xs={7}>
+                    <Grid item xs={8}>
                         <Typography variant='h3'>Julian Dean</Typography>
                         <Typography variant='h5'>{jobTitle}</Typography>
                         <Typography variant='subtitle1'>{company}</Typography>
@@ -34,7 +34,7 @@ const Header = () => {
                             <EmailIcon />
                         </IconButton>
                     </Grid>
-                    <Grid item xs={5}>
+                    <Grid item xs={4}>
                         <img className='Profile' src='profile.png' alt='Profile'/>
                     </Grid>
                     <Grid item xs={12}>
