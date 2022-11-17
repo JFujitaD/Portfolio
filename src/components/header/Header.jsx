@@ -35,7 +35,7 @@ const Header = () => {
                         </IconButton>
                     </Grid>
                     <Grid item xs={5}>
-                        <img src='profile.png' alt='Profile'/>
+                        <img className='Profile' src='profile.png' alt='Profile'/>
                     </Grid>
                     <Grid item xs={12}>
                         <Divider style={{ width: '100%' }} />

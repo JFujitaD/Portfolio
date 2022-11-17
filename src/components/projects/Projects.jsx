@@ -1,7 +1,8 @@
 import { Grid, Paper, Typography } from "@mui/material";
 import Project from "./project/Project";
+import projectsData from './projectsData.json';
 
-const Body = () => {
+const Projects = () => {
     return (
         <div className='Body'>
             <Paper
@@ -13,16 +14,18 @@ const Body = () => {
                 }}
             >
                 <Grid container spacing={2}>
-                    <Grid xs={12}>
+                    <Grid item xs={12}>
                         <Typography variant="h3">Projects</Typography>
                     </Grid>
-                    <Grid xs={4}>
-                        <Project />
-                    </Grid>
+                    {projectsData.map((p) => {
+                        return (
+                            <Project p={p}/>
+                        );
+                    })}
                 </Grid>
             </Paper>
         </div>
     );
 };
 
-export default Body;
+export default Projects;

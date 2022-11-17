@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Clock Display",
+        "image": "https://raw.githubusercontent.com/JFujitaD/Clock-Display/master/Images/cd-1.png",
+        "link": "https://github.com/JFujitaD/Clock-Display"
+    },
+    {
+        "name": "Resource Pack Generator",
+        "image": "https://raw.githubusercontent.com/JFujitaD/Minecraft-Resource-Pack-Generator/master/screenshots/minecraft4.png",
+        "link": "https://github.com/JFujitaD/Minecraft-Resource-Pack-Generator"
+    },
+    {
+        "name": "Pygame Basic API",
+        "image": "https://raw.githubusercontent.com/JFujitaD/Pygame-Basic/master/Images/pb-demo.PNG",
+        "link": "https://github.com/JFujitaD/Pygame-Basic"
+    },
+    {
+        "name": "Mandelbrot Set Generator",
+        "image": "https://raw.githubusercontent.com/JFujitaD/Mandelbrot-Set-Generator/master/Images/msg-1.png",
+        "link": "https://github.com/JFujitaD/Mandelbrot-Set-Generator"
+    },
+    {
+        "name": "Barcode Generator",
+        "image": "https://raw.githubusercontent.com/JFujitaD/Barcode-Generator/master/Images/bg-output.PNG",
+        "link": "https://github.com/JFujitaD/Barcode-Generator"
+    },
+    {
+        "name": "Maze Solver",
+        "image": "https://raw.githubusercontent.com/JFujitaD/Maze-Solver/master/src/images/ms-maze1.png",
+        "link": "https://github.com/JFujitaD/Maze-Solver"
+    },
+    {
+        "name": "iOS Math Game",
+        "image": "https://raw.githubusercontent.com/JFujitaD/iOS-Math-Game/main/Math%20Game/Images/mg-mult.png",
+        "link": "https://github.com/JFujitaD/iOS-Math-Game"
+    },
+    {
+        "name": "Bank Management System",
+        "image": "https://raw.githubusercontent.com/JFujitaD/Bank-Management-System/master/screenshots/bms-main.png",
+        "link": "https://github.com/JFujitaD/Bank-Management-System"
+    }
+]
