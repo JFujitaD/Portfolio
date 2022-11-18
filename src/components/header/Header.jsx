@@ -24,13 +24,13 @@ const Header = () => {
                     <Typography variant='h1'>Julian Dean</Typography>
                     <Typography variant='h3'>{jobTitle}</Typography>
                     <Typography variant='h5'>{company}</Typography>
-                    <IconButton>
-                        <GitHubIcon color='primary' fontSize='large' />
+                    <IconButton href='https://github.com/JFujitaD'>
+                        <GitHubIcon color='primary' fontSize='large'/>
                     </IconButton>
-                    <IconButton>
+                    <IconButton href='https://www.linkedin.com/in/julian-dean-8733521b9/'>
                         <LinkedInIcon color='primary' fontSize='large' />
                     </IconButton>
-                    <IconButton>
+                    <IconButton href='mailto:fujitajulian@icloud.com'>
                         <EmailIcon color='primary' fontSize='large' />
                     </IconButton>
                 </Grid>
