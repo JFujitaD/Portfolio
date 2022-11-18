@@ -1,8 +1,15 @@
 import { Paper, Typography, Grid, Accordion, AccordionSummary, AccordionDetails, useTheme } from "@mui/material";
+import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
+import CodeIcon from '@mui/icons-material/Code';
+import ConstructionIcon from '@mui/icons-material/Construction';
 import experiencesData from './experiencesData.json';
 import './Experiences.css';
 
 const Experiences = () => {
+    const iconMapping = [
+        <CodeIcon />,
+        <IntegrationInstructionsIcon />,
+    ];
     const theme = useTheme();
 
     return (
@@ -23,7 +30,14 @@ const Experiences = () => {
                         return (
                             <Accordion key={e.name}>
                                 <AccordionSummary>
-                                    <Typography variant='h5'>{e.title}</Typography>
+                                    <Grid container>
+                                        <Grid item xs={11}>
+                                            <Typography variant='h5'>{e.title}</Typography>
+                                        </Grid>
+                                        <Grid item xs={1} sx={{ textAlign: 'right' }}>
+                                            {iconMapping[e.id]} 
+                                        </Grid>
+                                    </Grid>
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Accordion>
@@ -58,14 +72,25 @@ const Experiences = () => {
                 <Grid item xs={6}>
                     <Accordion>
                         <AccordionSummary>
-                            <Typography variant='h5'>Technologies</Typography>
+                        <Grid container>
+                            <Grid item xs={11}>
+                                <Typography variant='h5'>Technologies</Typography>
+                            </Grid>
+                            <Grid item xs={1} sx={{ textAlign: 'right' }}>
+                                <ConstructionIcon /> 
+                            </Grid>
+                        </Grid>
                         </AccordionSummary>
                         <AccordionDetails>
-                            {experiencesData.technologies.map((t) => {
-                                return (
-                                    <Typography key={t} variant='subtitle1'>{t}</Typography>
-                                );
-                            })}
+                            <ul className="List">
+                                {experiencesData.technologies.map((t) => {
+                                    return (
+                                        <li>
+                                            <Typography key={t} variant='subtitle1'>{t}</Typography>
+                                        </li>
+                                    );
+                                })}
+                            </ul>
                         </AccordionDetails>
                     </Accordion> 
                 </Grid>

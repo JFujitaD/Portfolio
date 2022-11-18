@@ -26,13 +26,13 @@ const Header = () => {
                     <Typography variant='h5'>{jobTitle}</Typography>
                     <Typography variant='subtitle1'>{company}</Typography>
                     <IconButton>
-                        <GitHubIcon />
+                        <GitHubIcon fontSize='large' />
                     </IconButton>
                     <IconButton>
-                        <LinkedInIcon />
+                        <LinkedInIcon fontSize='large' />
                     </IconButton>
                     <IconButton>
-                        <EmailIcon />
+                        <EmailIcon fontSize='large' />
                     </IconButton>
                 </Grid>
                 <Grid item xs={4}>

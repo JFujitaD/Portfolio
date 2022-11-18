@@ -1,6 +1,7 @@
 {
     "industry": [
         {
+            "id": 0,
             "name": "United States Space Force",
             "title": "Full Stack Developer",
             "description": "Developed defensive cyber operations for space (DCO-S) software for the United States Space Force (USSF).",
@@ -15,6 +16,7 @@
             ]
         },
         {
+            "id": 1,
             "name": "United States Air Force",
             "title": "Systems Engineer",
             "description": "desc",
