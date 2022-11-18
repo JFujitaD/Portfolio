@@ -12,13 +12,13 @@ const AppShell = () => {
                     </Typography>
                     <List>
                         <ListItem disablePadding>
-                            <ListItemButton>
+                            <ListItemButton href='#'>
                                 <ListItemText>BACK TO TOP</ListItemText>
                             </ListItemButton>
-                            <ListItemButton>
+                            <ListItemButton href='#Experience'>
                                 <ListItemText>EXPERIENCE</ListItemText>
                             </ListItemButton>
-                            <ListItemButton>
+                            <ListItemButton href='#Projects'>
                                 <ListItemText>PROJECTS</ListItemText>
                             </ListItemButton>
                         </ListItem>

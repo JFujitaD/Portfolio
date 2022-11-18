@@ -7,6 +7,7 @@ const Projects = () => {
 
     return (
         <Paper
+            id='Projects'
             elevation={24}
             sx={{ 
                 backgroundColor: theme.palette.background.light,
