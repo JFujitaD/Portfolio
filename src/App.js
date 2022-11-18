@@ -6,9 +6,19 @@ import Projects from './components/projects/Projects';
 
 const theme = createTheme({
   palette: {
+    primary: {
+      main: '#3f51b5',
+    },
+    secondary: {
+      main: '#f50057',
+    },
     background: {
-      default: '#9b9bbd',
-      paper: '#76b196',
+      default: '#303030',
+      paper: '#424242',
+      light: '#3a3a3f',
+    },
+    text: {
+      primary: '#ffffff',
     },
   },
 });
