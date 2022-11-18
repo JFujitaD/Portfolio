@@ -1,5 +1,6 @@
 import { Paper, Typography, Grid, Accordion, AccordionSummary, AccordionDetails, useTheme } from "@mui/material";
 import experiencesData from './experiencesData.json';
+import './Experiences.css';
 
 const Experiences = () => {
     const theme = useTheme();
@@ -38,11 +39,15 @@ const Experiences = () => {
                                             <Typography variant='subtitle1'>Skills</Typography>
                                         </AccordionSummary>
                                         <AccordionDetails>
-                                            {e.skills.map((s) => {
-                                                return (
-                                                    <Typography key={s} variant='subtitle2'>{s}</Typography>
-                                                );
-                                            })}
+                                            <ul className="List">
+                                                {e.tasks.map((s) => {
+                                                    return (
+                                                            <li>
+                                                                <Typography key={s} variant='subtitle2'>{s}</Typography>
+                                                            </li>
+                                                    );
+                                                })}
+                                            </ul>
                                         </AccordionDetails>
                                     </Accordion>
                                 </AccordionDetails>

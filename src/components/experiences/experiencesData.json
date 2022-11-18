@@ -3,25 +3,52 @@
         {
             "name": "United States Space Force",
             "title": "Full Stack Developer",
-            "description": "desc",
-            "skills": [
-                "UI/UX Developer",
-                "Backend Developer"
+            "description": "Developed defensive cyber operations for space (DCO-S) software for the United States Space Force (USSF).",
+            "tasks": [
+                "Used Docker, containerization technology, for enterprise microservice applications",
+                "Created dynamic user interfaces using the React and Angular JavaScript libraries",
+                "Adopted GitLab and used their continuous integration (CI) and continuous deployment (CD) services for linting, testing, build automation, and rapid deployment of applications",
+                "Developed entity relationship diagrams (ERDs) using diagramming software such as Lucidchart and draw.io",
+                "Utilized containerized PostgreSQL databases in enterprise level applications",
+                "Created unit tests using testing frameworks such as Jest for JavaScript, and pytest for Python",
+                "Wrote representational state transfer (REST) application programming interfaces (APIs) using Flask, a micro framework written in Python"
             ]
         },
         {
             "name": "United States Air Force",
             "title": "Systems Engineer",
             "description": "desc",
-            "skills": [
-                "Scrum Master",
-                "Systems Engineering"
+            "tasks": [
+                "Briefed the 517th Software Engineering Squadron (SWES) flight on communication skills to provide advice from The Tongue and Quill on oral and written communication",
+                "Improved the Ground Based Strategic Deterrent (GBSD) Software Oversight/Insight (O/I) Plan by providing extensive knowledge in contractual requirements, policies, and standards",
+                "Analyzed contractor/sub-contractor statement of works (SOWs) to gain knowledge of program requirements.",
+                "Lead the Razorbacks team as a Scrum Master to enhance integration efficiency by providing guidance, researching processes, adapting to new requirements, and removing impediments",
+                "Reformed onboarding process for the 517 SWES",
+                "Collaborated with leadership to develop integration activities and training for the new hires",
+                "Organized and executed Scrum events as a Scrum Master for the Razorbacks team",
+                "Briefed the squadron director at the Program Management Review (PMR) on program integration metrics.",
+                "Briefed the group director at the PMR on program integration metrics.",
+                "Contributed expertise to the Systems Engineering & Integration (SE&I) team",
+                "Provided O/I and systems engineering for General Dynamics Information Technology (GDIT) in support of the acquisition of the Digital Engineering Environment (DEE)",
+                "Completed contractor data requirements list (CDRL) reviews to ensure contract compliance",
+                "Compiled and briefed newfound knowledge of contractor activities to the SE&I team to provide insight and transfer knowledge",
+                "Coordinated with mission partners and stakeholders to transfer knowledge, reduce risk, discuss technical debt, and review roadmaps"
             ]
         }
     ],
     "technologies": [
+        "Docker",
+        "GitLab",
         "JavaScript",
         "React",
-        "PostgreSQL"
+        "Jest",
+        "Java",
+        "C#",
+        "Python",
+        "Flask",
+        "pytest",
+        "PostgreSQL",
+        "Confluence",
+        "Jira"
     ]
 }
