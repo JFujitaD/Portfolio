@@ -16,33 +16,32 @@ const Header = () => {
             elevation={24}
             sx={{ 
                 backgroundColor: theme.palette.background.light,
-                padding: '3em 6em', 
-                marginTop: '3em',
+                padding: '7em 3em 3em 3em', 
             }}
         >
             <Grid container spacing={2}>
                 <Grid item xs={8}>
-                    <Typography variant='h3'>Julian Dean</Typography>
-                    <Typography variant='h5'>{jobTitle}</Typography>
-                    <Typography variant='subtitle1'>{company}</Typography>
+                    <Typography variant='h1'>Julian Dean</Typography>
+                    <Typography variant='h3'>{jobTitle}</Typography>
+                    <Typography variant='h5'>{company}</Typography>
                     <IconButton>
-                        <GitHubIcon fontSize='large' />
+                        <GitHubIcon color='primary' fontSize='large' />
                     </IconButton>
                     <IconButton>
-                        <LinkedInIcon fontSize='large' />
+                        <LinkedInIcon color='primary' fontSize='large' />
                     </IconButton>
                     <IconButton>
-                        <EmailIcon fontSize='large' />
+                        <EmailIcon color='primary' fontSize='large' />
                     </IconButton>
                 </Grid>
                 <Grid item xs={4}>
                     <img className='Profile' src='profile.png' alt='Profile'/>
                 </Grid>
                 <Grid item xs={12}>
-                    <Divider style={{ width: '100%' }} />
+                    <Divider sx={{ width: '100%', borderBottomWidth: '0.5em' }} />
                 </Grid>
                 <Grid item xs={12}>
-                    <Typography variant='h5'>About</Typography>
+                    <Typography variant='h4'>About</Typography>
                     <Typography variant='body'>{description}</Typography>
                 </Grid>
             </Grid>
