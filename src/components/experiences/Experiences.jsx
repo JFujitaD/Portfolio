@@ -42,9 +42,7 @@ const Experiences = () => {
                                                 return (
                                                     <Typography key={s} variant='subtitle2'>{s}</Typography>
                                                 );
-                                            })
-
-                                            }
+                                            })}
                                         </AccordionDetails>
                                     </Accordion>
                                 </AccordionDetails>
