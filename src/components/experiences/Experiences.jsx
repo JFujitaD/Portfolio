@@ -57,8 +57,8 @@ const Experiences = () => {
                                             <ul className="List">
                                                 {e.tasks.map((s) => {
                                                     return (
-                                                            <li>
-                                                                <Typography key={s} variant='subtitle2'>{s}</Typography>
+                                                            <li key={s}>
+                                                                <Typography variant='subtitle2'>{s}</Typography>
                                                             </li>
                                                     );
                                                 })}
@@ -86,8 +86,8 @@ const Experiences = () => {
                             <ul className="List">
                                 {experiencesData.technologies.map((t) => {
                                     return (
-                                        <li>
-                                            <Typography key={t} variant='subtitle1'>{t}</Typography>
+                                        <li key={t}>
+                                            <Typography variant='subtitle1'>{t}</Typography>
                                         </li>
                                     );
                                 })}

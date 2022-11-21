@@ -1,7 +1,11 @@
 import { AppBar, Box, List, ListItem, ListItemButton, ListItemText, Toolbar, Typography } from "@mui/material";
 import DataObjectIcon from '@mui/icons-material/DataObject';
+import { useContext } from "react";
+import AppContext from "../../AppContext";
 
 const AppShell = () => {
+    const appContext = useContext(AppContext);
+
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar>

@@ -21,7 +21,7 @@ const Projects = () => {
                 </Grid>
                 {projectsData.map((p) => {
                     return (
-                        <Project p={p}/>
+                        <Project key={p.name} p={p}/>
                     );
                 })}
             </Grid>
