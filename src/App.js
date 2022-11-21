@@ -8,16 +8,24 @@ import AppContext from './AppContext';
 import { useState } from 'react';
 
 function App() {
-  const [progress, setProgress] = useState(1); // Starting value for progress bar
+  const [progress, setProgress] = useState(0); // Starting value for progress bar
   const [activityMap, setActivityMap] = useState({});
-  const activityTotal = 8; // Total number of interactions the page can have
+  const activityTotal = 10; // Total number of interactions the page can have
 
   const updateProgress = (id) => {
     if (!(id in activityMap)) {
       setProgress(progress + 1);
-      activityMap[id] = true;
+      setActivityMap({
+        ...activityMap,
+        [id]: true,
+      });
     }
   };
+  const onVisible = (id, isVisible) => {
+    if (isVisible) {
+        updateProgress(id);
+    }
+};
 
   return (
     <div className="App">
@@ -25,6 +33,7 @@ function App() {
         activityTotal,
         progress,
         updateProgress,
+        onVisible,
       }}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
