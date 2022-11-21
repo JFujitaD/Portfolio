@@ -17,7 +17,7 @@ const AppShell = () => {
                         Julian Dean
                     </Typography>
                     <Box sx={{ flexGrow: 1, marginLeft: 10, marginRight: 2 }}>
-                        <LinearProgress color='secondary' variant='determinate' value={90} />
+                        <LinearProgress color='secondary' variant='determinate' value={100 * appContext.progress / appContext.activityTotal} />
                     </Box>
                     <Box sx={{ marginRight: 10 }}>
                         <Typography variant='body'>

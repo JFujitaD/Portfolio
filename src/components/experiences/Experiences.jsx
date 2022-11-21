@@ -4,8 +4,11 @@ import CodeIcon from '@mui/icons-material/Code';
 import ConstructionIcon from '@mui/icons-material/Construction';
 import experiencesData from './experiencesData.json';
 import './Experiences.css';
+import { useContext } from "react";
+import AppContext from "../../AppContext";
 
 const Experiences = () => {
+    const appContext = useContext(AppContext);
     const iconMapping = [
         <CodeIcon />,
         <IntegrationInstructionsIcon />,
@@ -30,7 +33,7 @@ const Experiences = () => {
                     {experiencesData.industry.map((e) => {
                         return (
                             <Accordion key={e.name}>
-                                <AccordionSummary>
+                                <AccordionSummary onClick={() => appContext.updateProgress(e.name)}>
                                     <Grid container>
                                         <Grid item xs={11}>
                                             <Typography variant='h5'>{e.title}</Typography>
