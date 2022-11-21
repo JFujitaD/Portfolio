@@ -33,7 +33,7 @@ const Experiences = () => {
                     {experiencesData.industry.map((e) => {
                         return (
                             <Accordion key={e.name}>
-                                <AccordionSummary onClick={() => appContext.updateProgress(e.name)}>
+                                <AccordionSummary onClick={() => appContext.updateProgress(e.title)}>
                                     <Grid container>
                                         <Grid item xs={11}>
                                             <Typography variant='h5'>{e.title}</Typography>
@@ -45,7 +45,7 @@ const Experiences = () => {
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <Accordion>
-                                        <AccordionSummary>
+                                        <AccordionSummary onClick={() => appContext.updateProgress(e.name)}>
                                             <Typography variant='subtitle1'>{e.name}</Typography>
                                         </AccordionSummary>
                                         <AccordionDetails>
@@ -53,7 +53,7 @@ const Experiences = () => {
                                         </AccordionDetails>
                                     </Accordion>
                                     <Accordion sx={{ marginTop: '1em' }}>
-                                        <AccordionSummary>
+                                        <AccordionSummary onClick={() => appContext.updateProgress(`${e.title}-skills`)}>
                                             <Typography variant='subtitle1'>Skills</Typography>
                                         </AccordionSummary>
                                         <AccordionDetails>
@@ -75,7 +75,7 @@ const Experiences = () => {
                 </Grid>
                 <Grid item xs={6}>
                     <Accordion>
-                        <AccordionSummary>
+                        <AccordionSummary onClick={() => appContext.updateProgress('technologies')}>
                         <Grid container>
                             <Grid item xs={11}>
                                 <Typography variant='h5'>Technologies</Typography>
