@@ -12,7 +12,7 @@ const Projects = () => {
     return (
         <ReactVisibilitySensor
             onChange={(isVisible) => appContext.onVisible('projects-visible', isVisible)}
-            partialVisibility='bottom'
+            partialVisibility='top'
         >
             <Paper
                 id='Projects'

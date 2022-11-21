@@ -10,7 +10,7 @@ import { useState } from 'react';
 function App() {
   const [progress, setProgress] = useState(0); // Starting value for progress bar
   const [activityMap, setActivityMap] = useState({});
-  const activityTotal = 18; // Total number of interactions the page can have
+  const activityTotal = 3; // Total number of interactions the page can have
 
   const updateProgress = (id) => {
     if (!(id in activityMap)) {
@@ -22,9 +22,7 @@ function App() {
     }
   };
   const onVisible = (id, isVisible) => {
-    if (isVisible) {
-        updateProgress(id);
-    }
+    updateProgress(id);
 };
 
   return (

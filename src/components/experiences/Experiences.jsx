@@ -19,7 +19,7 @@ const Experiences = () => {
     return (
         <ReactVisibilitySensor
             onChange={(isVisible) => appContext.onVisible('experiences-visible', isVisible)}
-            partialVisibility='bottom'
+            partialVisibility='top'
         >     
             <Paper
                 id='Experience'
@@ -49,7 +49,7 @@ const Experiences = () => {
                                         </Grid>
                                     </AccordionSummary>
                                     <AccordionDetails>
-                                        <Accordion>
+                                        <Accordion sx={{ backgroundColor: theme.palette.background.paper2 }}>
                                             <AccordionSummary onClick={() => appContext.updateProgress(e.name)}>
                                                 <Typography variant='subtitle1'>{e.name}</Typography>
                                             </AccordionSummary>
@@ -57,7 +57,7 @@ const Experiences = () => {
                                                 <Typography variant='subtitle2'>{e.description}</Typography>
                                             </AccordionDetails>
                                         </Accordion>
-                                        <Accordion sx={{ marginTop: '1em' }}>
+                                        <Accordion sx={{ marginTop: '1em', backgroundColor: theme.palette.background.paper2 }}>
                                             <AccordionSummary onClick={() => appContext.updateProgress(`${e.title}-skills`)}>
                                                 <Typography variant='subtitle1'>Skills</Typography>
                                             </AccordionSummary>
