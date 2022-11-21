@@ -8,7 +8,7 @@ const Project = ({ p }) => {
 
     return (
         <Grid key={p.name} item xs={3}>
-            <Card sx={{ height: '275px', marginBottom: '0' }}>
+            <Card sx={{ height: '275px', marginBottom: '0', overflow: 'auto' }}>
             <CardMedia 
                 component='img'
                 image={p.image}
@@ -19,10 +19,10 @@ const Project = ({ p }) => {
                     <Typography variant='h5'>{p.name}</Typography>
                     <Accordion>
                         <AccordionSummary onClick={() => appContext.updateProgress(p.name)}>
-                            <Typography variant='subtitle1'>Description</Typography>
+                            <Typography variant='subtitle1'>Details</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography variant='subtitle2'>{p.description}</Typography>
+                            <Typography variant='subtitle2'>{p.details}</Typography>
                         </AccordionDetails>
                     </Accordion>
                 </CardContent>
