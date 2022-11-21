@@ -8,13 +8,18 @@ import AppContext from './AppContext';
 import { useState } from 'react';
 
 function App() {
-  const [ progress, setProgress ] = useState(0.0); 
+  const [ progress, setProgress ] = useState(1); 
+  const activityTotal = 10; // Total number of interactions the page can have
+  const updateProgress = () => {
+    setProgress(progress + 1);
+  };
 
   return (
     <div className="App">
       <AppContext.Provider value={{
+        activityTotal,
         progress,
-        setProgress,
+        updateProgress,
       }}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
