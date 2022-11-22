@@ -13,6 +13,7 @@ import ReactVisibilitySensor from 'react-visibility-sensor';
 import { useContext } from 'react';
 import AppContext from '../../AppContext';
 import profile from './profile.png';
+import './Header.css';
 
 const jobTitle = 'Full Stack Developer';
 const company = '309th Software Engineering Group';
@@ -38,17 +39,35 @@ const Header = () => {
         }}
       >
         <Grid container spacing={2}>
-          <Grid item xs={8}>
-            <Typography variant='h1'>Julian Dean</Typography>
-            <Typography variant='h3'>{jobTitle}</Typography>
-            <Typography variant='h5'>{company}</Typography>
-            <IconButton href='https://github.com/JFujitaD'>
-              <GitHubIcon color='primary' fontSize='large' />
+          <Grid className='header-grid' item xs={8}>
+            <Typography className='header-name' variant='h1'>
+              Julian Dean
+            </Typography>
+            <Typography className='header-job-title' variant='h3'>
+              {jobTitle}
+            </Typography>
+            <Typography className='header-company' variant='h5'>
+              {company}
+            </Typography>
+            <IconButton
+              className='header-icon-github'
+              href='https://github.com/JFujitaD'
+            >
+              <GitHubIcon
+                color='primary'
+                fontSize='large'
+              />
             </IconButton>
-            <IconButton href='https://www.linkedin.com/in/julian-dean-8733521b9/'>
+            <IconButton
+              className='header-icon-linkedin'
+              href='https://www.linkedin.com/in/julian-dean-8733521b9/'
+            >
               <LinkedInIcon color='primary' fontSize='large' />
             </IconButton>
-            <IconButton href='mailto:fujitajulian@icloud.com'>
+            <IconButton
+              className='header-icon-email'
+              href='mailto:fujitajulian@icloud.com'
+            >
               <EmailIcon color='primary' fontSize='large' />
             </IconButton>
           </Grid>

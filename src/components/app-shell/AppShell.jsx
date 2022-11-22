@@ -17,7 +17,6 @@ const AppShell = () => {
   const appContext = useContext(AppContext);
   const progress = appContext.progress;
   const activityTotal = appContext.activityTotal;
-
   return (
     <Box sx={{ display: 'flex' }}>
       <AppBar>
