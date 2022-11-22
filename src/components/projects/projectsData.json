@@ -1,50 +1,50 @@
 [
-    {
-        "name": "Clock Display",
-        "image": "https://raw.githubusercontent.com/JFujitaD/Clock-Display/master/Images/cd-1.png",
-        "link": "https://github.com/JFujitaD/Clock-Display",
-        "details": "A Java project that makes a digital clock display out of 96 analog clocks."
-    },
-    {
-        "name": "Resource Pack Generator",
-        "image": "https://raw.githubusercontent.com/JFujitaD/Minecraft-Resource-Pack-Generator/master/screenshots/minecraft4.png",
-        "link": "https://github.com/JFujitaD/Minecraft-Resource-Pack-Generator",
-        "details": "Generate a themed resource pack for any version of Minecraft using Python."
-    },
-    {
-        "name": "Pygame Basic API",
-        "image": "https://raw.githubusercontent.com/JFujitaD/Pygame-Basic/master/Images/pb-demo.PNG",
-        "link": "https://github.com/JFujitaD/Pygame-Basic",
-        "details": "This allows the user to easily interface with pygame and write their own games with ease."
-    },
-    {
-        "name": "Mandelbrot Set Generator",
-        "image": "https://raw.githubusercontent.com/JFujitaD/Mandelbrot-Set-Generator/master/Images/msg-1.png",
-        "link": "https://github.com/JFujitaD/Mandelbrot-Set-Generator",
-        "details": "This JavaScript program generates the Mandelbrot Set with the given parameters."
-    },
-    {
-        "name": "Barcode Generator",
-        "image": "https://raw.githubusercontent.com/JFujitaD/Barcode-Generator/master/Images/bg-output.PNG",
-        "link": "https://github.com/JFujitaD/Barcode-Generator",
-        "details": "Generates Code-128 barcodes."
-    },
-    {
-        "name": "Maze Solver",
-        "image": "https://raw.githubusercontent.com/JFujitaD/Maze-Solver/master/src/images/ms-maze1.png",
-        "link": "https://github.com/JFujitaD/Maze-Solver",
-        "details": "This is a visual representation of how mazes can be traversed using various path-finding algorithms."
-    },
-    {
-        "name": "iOS Math Game",
-        "image": "https://raw.githubusercontent.com/JFujitaD/iOS-Math-Game/main/Math%20Game/Images/mg-mult.png",
-        "link": "https://github.com/JFujitaD/iOS-Math-Game",
-        "details": "This is a rudimentary math game application that focuses on addition, subtraction, multiplication, and division."
-    },
-    {
-        "name": "Bank Management System",
-        "image": "https://raw.githubusercontent.com/JFujitaD/Bank-Management-System/master/screenshots/bms-main.png",
-        "link": "https://github.com/JFujitaD/Bank-Management-System",
-        "details": "This is a command-line bank management system implemented using C."
-    }
+  {
+    "name": "Clock Display",
+    "image": "https://raw.githubusercontent.com/JFujitaD/Clock-Display/master/Images/cd-1.png",
+    "link": "https://github.com/JFujitaD/Clock-Display",
+    "details": "A Java project that makes a digital clock display out of 96 analog clocks."
+  },
+  {
+    "name": "Resource Pack Generator",
+    "image": "https://raw.githubusercontent.com/JFujitaD/Minecraft-Resource-Pack-Generator/master/screenshots/minecraft4.png",
+    "link": "https://github.com/JFujitaD/Minecraft-Resource-Pack-Generator",
+    "details": "Generate a themed resource pack for any version of Minecraft using Python."
+  },
+  {
+    "name": "Pygame Basic API",
+    "image": "https://raw.githubusercontent.com/JFujitaD/Pygame-Basic/master/Images/pb-demo.PNG",
+    "link": "https://github.com/JFujitaD/Pygame-Basic",
+    "details": "This allows the user to easily interface with pygame and write their own games with ease."
+  },
+  {
+    "name": "Mandelbrot Set Generator",
+    "image": "https://raw.githubusercontent.com/JFujitaD/Mandelbrot-Set-Generator/master/Images/msg-1.png",
+    "link": "https://github.com/JFujitaD/Mandelbrot-Set-Generator",
+    "details": "This JavaScript program generates the Mandelbrot Set with the given parameters."
+  },
+  {
+    "name": "Barcode Generator",
+    "image": "https://raw.githubusercontent.com/JFujitaD/Barcode-Generator/master/Images/bg-output.PNG",
+    "link": "https://github.com/JFujitaD/Barcode-Generator",
+    "details": "Generates Code-128 barcodes."
+  },
+  {
+    "name": "Maze Solver",
+    "image": "https://raw.githubusercontent.com/JFujitaD/Maze-Solver/master/src/images/ms-maze1.png",
+    "link": "https://github.com/JFujitaD/Maze-Solver",
+    "details": "This is a visual representation of how mazes can be traversed using various path-finding algorithms."
+  },
+  {
+    "name": "iOS Math Game",
+    "image": "https://raw.githubusercontent.com/JFujitaD/iOS-Math-Game/main/Math%20Game/Images/mg-mult.png",
+    "link": "https://github.com/JFujitaD/iOS-Math-Game",
+    "details": "This is a rudimentary math game application that focuses on addition, subtraction, multiplication, and division."
+  },
+  {
+    "name": "Bank Management System",
+    "image": "https://raw.githubusercontent.com/JFujitaD/Bank-Management-System/master/screenshots/bms-main.png",
+    "link": "https://github.com/JFujitaD/Bank-Management-System",
+    "details": "This is a command-line bank management system implemented using C."
+  }
 ]

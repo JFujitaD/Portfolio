@@ -23,16 +23,18 @@ function App() {
   };
   const onVisible = (id, isVisible) => {
     updateProgress(id);
-};
+  };
 
   return (
-    <div className="App">
-      <AppContext.Provider value={{
-        activityTotal,
-        progress,
-        updateProgress,
-        onVisible,
-      }}>
+    <div className='App'>
+      <AppContext.Provider
+        value={{
+          activityTotal,
+          progress,
+          updateProgress,
+          onVisible,
+        }}
+      >
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <AppShell />
