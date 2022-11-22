@@ -1,4 +1,4 @@
-import { Grid, Paper, Typography, useTheme } from '@mui/material';
+import { alpha, Grid, Paper, Typography, useTheme } from '@mui/material';
 import { useContext } from 'react';
 import ReactVisibilitySensor from 'react-visibility-sensor';
 import AppContext from '../../AppContext';
@@ -20,9 +20,9 @@ const Projects = () => {
         id='Projects'
         elevation={24}
         sx={{
-          backgroundColor: theme.palette.background.light,
+          backgroundColor: alpha(theme.palette.background.light, 0.9),
           padding: '3em',
-          margin: '3em',
+          margin: '5em',
         }}
       >
         <Grid container spacing={5}>

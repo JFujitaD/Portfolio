@@ -1,4 +1,5 @@
 import {
+  alpha,
   Divider,
   Grid,
   IconButton,
@@ -34,7 +35,7 @@ const Header = () => {
       <Paper
         elevation={24}
         sx={{
-          backgroundColor: theme.palette.background.light,
+          backgroundColor: alpha(theme.palette.background.light, 0.9),
           padding: '7em 3em 3em 3em',
         }}
       >

@@ -6,6 +6,7 @@ import {
   AccordionSummary,
   AccordionDetails,
   useTheme,
+  alpha,
 } from '@mui/material';
 import ConstructionIcon from '@mui/icons-material/Construction';
 import experiencesData from './experiencesData.json';
@@ -29,9 +30,9 @@ const Experiences = () => {
         id='Experience'
         elevation={24}
         sx={{
-          backgroundColor: theme.palette.background.light,
+          backgroundColor: alpha(theme.palette.background.light, 0.9),
           padding: '3em',
-          margin: '3em',
+          margin: '5em',
         }}
       >
         <Grid container spacing={5}>
