@@ -6,6 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import ReactVisibilitySensor from 'react-visibility-sensor';
 import { useContext } from 'react';
 import AppContext from '../../AppContext';
+import profile from './profile.png'
 
 const jobTitle = 'Full Stack Developer';
 const company = '309th Software Engineering Group';
@@ -43,7 +44,7 @@ const Header = () => {
                         </IconButton>
                     </Grid>
                     <Grid item xs={4}>
-                        <img className='Profile' src='profile.png' alt='Profile'/>
+                        <img className='Profile' src={profile} alt='Profile'/>
                     </Grid>
                     <Grid item xs={12}>
                         <Divider sx={{ width: '100%', borderBottomWidth: '0.5em' }} />
