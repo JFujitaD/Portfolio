@@ -38,9 +38,11 @@
             ]
         }
     ],
-    "technologies": [
+    "skills": [
         "Docker",
         "GitLab",
+        "Agile",
+        "DevSecOps",
         "JavaScript",
         "React",
         "Jest",
