@@ -38,7 +38,7 @@ const Experience = ({ e }) => {
                         <Typography variant='subtitle1'>Skills</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                        <ul className="List">
+                        <ul style={{ marginTop: 0 }}>
                             {e.tasks.map((s) => {
                                 return (
                                         <li key={s}>

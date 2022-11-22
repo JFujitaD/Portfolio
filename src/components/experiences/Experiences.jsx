@@ -1,7 +1,6 @@
 import { Paper, Typography, Grid, Accordion, AccordionSummary, AccordionDetails, useTheme } from "@mui/material";
 import ConstructionIcon from '@mui/icons-material/Construction';
 import experiencesData from './experiencesData.json';
-import './Experiences.css';
 import { useContext } from "react";
 import AppContext from "../../AppContext";
 import ReactVisibilitySensor from "react-visibility-sensor";
@@ -49,7 +48,7 @@ const Experiences = () => {
                             </Grid>
                             </AccordionSummary>
                             <AccordionDetails>
-                                <ul className="List">
+                                <ul style={{ marginTop: 0 }}>
                                     {experiencesData.skills.map((t) => {
                                         return (
                                             <li key={t}>

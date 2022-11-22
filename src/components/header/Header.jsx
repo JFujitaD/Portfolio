@@ -1,4 +1,3 @@
-import './Header.css';
 import { Divider, Grid, IconButton, Paper, Typography, useTheme } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -44,7 +43,11 @@ const Header = () => {
                         </IconButton>
                     </Grid>
                     <Grid item xs={4}>
-                        <img className='Profile' src={profile} alt='Profile'/>
+                        <img 
+                            style={{ border: '0.1em solid black', borderRadius: '15%', width: '100%' }}
+                            src={profile}
+                            alt='Profile'
+                        />
                     </Grid>
                     <Grid item xs={12}>
                         <Divider sx={{ width: '100%', borderBottomWidth: '0.5em' }} />
