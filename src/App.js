@@ -6,11 +6,12 @@ import Projects from './components/projects/Projects';
 import AppShell from './components/app-shell/AppShell';
 import AppContext from './AppContext';
 import { useState } from 'react';
+import Hobbies from './components/hobbies/Hobbies';
 
 function App() {
   const [progress, setProgress] = useState(0); // Starting value for progress bar
   const [activityMap, setActivityMap] = useState({});
-  const activityTotal = 18; // Total number of interactions the page can have
+  const activityTotal = 19; // Total number of interactions the page can have
 
   const updateProgress = (id) => {
     if (!(id in activityMap)) {
@@ -40,6 +41,7 @@ function App() {
           <AppShell />
           <Header />
           <Experiences />
+          <Hobbies />
           <Projects />
         </ThemeProvider>
       </AppContext.Provider>
