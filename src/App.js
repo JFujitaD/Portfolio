@@ -28,7 +28,7 @@ function App() {
         [id]: true,
       });
     }
-    if (progress == activityTotal - 1) {
+    if (progress === activityTotal - 1) {
       setSnackbarOpen(true);
     }
   };
