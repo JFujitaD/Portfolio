@@ -58,7 +58,7 @@ function App() {
           <AppShell />
           <Header />
           <Experiences />
-          <Hobbies />
+          {/* <Hobbies /> */}
           <Projects />
           <Snackbar
             message='Thank you for viewing my portfolio!'
